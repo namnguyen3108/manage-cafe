@@ -13,6 +13,7 @@ namespace learning_asp.Areas.Product.Controllers
 
         ProductBusiness ProductBusiness = new ProductBusiness();
 
+        [HttpGet]
         // GET: Product/Product
         public ActionResult Index()
         {
